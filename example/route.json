@@ -1,0 +1,13 @@
+{
+  "workflowTaskQueue": "local",
+  "activities": {
+    "SendReceipt": "local"
+  },
+  "childWorkflows": {
+    "ShipmentWorkflow": {
+      "activities": {
+        "ReserveInventory": "local"
+      }
+    }
+  }
+}
